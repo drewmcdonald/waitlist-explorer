@@ -4,11 +4,10 @@ from contextlib import contextmanager
 from dataclasses import dataclass
 from datetime import date, datetime
 from pathlib import Path
-from typing import TYPE_CHECKING, ClassVar, Iterator, Optional
+from typing import ClassVar, Iterator, Optional
 
 import pandas as pd
 from google.cloud.storage import Bucket
-from google.cloud.storage import Client as GcsClient
 
 from lib.util import Environment, config, getLogger
 
@@ -64,12 +63,9 @@ class Report:
         return local_path
 
 
-@dataclass
+@dataclass(frozen=True)
 class ReportCollection:
-
-    def __post_init__(self):
-        self.client = GcsClient()
-        self.bucket = self.client.bucket(config.gcs_bucket)
+    bucket: Bucket
 
     def find_report(
         self,

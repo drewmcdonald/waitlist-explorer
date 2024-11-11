@@ -1,14 +1,22 @@
+import json
 from dataclasses import dataclass
 from functools import reduce
-from typing import Dict, Sequence, Literal, TypeVar
-import streamlit as st
-import pandas as pd
-import json
-import altair as alt
-from lib.optn import ages, waiting_times, statuses
-from lib.Report import ReportCollection
+from typing import Dict, Literal, Sequence, TypeVar
 
-collection = ReportCollection()
+import altair as alt
+import pandas as pd
+import streamlit as st
+from google.cloud.storage import Client as GcsClient
+from google.oauth2.service_account import Credentials
+
+from lib.optn import ages, statuses, waiting_times
+from lib.Report import ReportCollection
+from lib.util import config
+
+client = GcsClient(
+    credentials=Credentials.from_service_account_info(st.secrets['google'])
+)
+collection = ReportCollection(client.bucket(config.gcs_bucket))
 
 st.set_page_config(layout="wide")
 
