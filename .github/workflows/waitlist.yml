@@ -1,4 +1,4 @@
-name: GCP Authenticated Workflow
+name: Waitlist
 
 on:
   schedule:
