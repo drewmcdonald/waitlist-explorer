@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "tx-wl"
+description = "Transplant waitlist dashboard"
+version = "0.0.1"
+authors = ["Drew McDonald <github.com/drewmcdonald>"]
+# Specify the packages to include
+packages = [{ include = "lib" }]
+
+[tool.poetry.dependencies]
+python = "3.9.9"
+altair = "5.4.1"
+numpy = "1.26.4"
+pandas = "2.1.1"
+pandas-gbq = "0.24.0"
+selenium = "4.26.1"
+streamlit = "^1.40.0"
+google-cloud-storage = "^2.18.2"
+tenacity = "^9.0.0"
+
+
+[tool.poetry.dev-dependencies]
+black = "24.10.0"
+isort = "5.13.2"
+mypy = "1.13.0"
+pandas-stubs = "2.2.2.240807"
+
+[tool.poetry.group.dev.dependencies]
+python-dotenv = "^1.0.1"
+
+[tool.black]
+line-length = 88
+skip-string-normalization = true
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.isort]
+profile = "black"
+line_length = 88
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+ensure_newline_before_comments = true

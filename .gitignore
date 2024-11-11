@@ -1,0 +1,15 @@
+credentials.json
+.venv
+*.DAT
+.cache
+.env
+build/
+v0/
+
+data/STAR/
+*.log
+
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+.DS_Store

@@ -1,0 +1,250 @@
+{"code": "ALCH", "name": "Children's of Alabama", "city": "Birmingham", "state": "AL", "lat": 33.5206824, "lon": -86.8024326}
+{"code": "ALUA", "name": "University of Alabama Hospital", "city": "Birmingham", "state": "AL", "lat": 33.5206824, "lon": -86.8024326}
+{"code": "ALVA", "name": "Birmingham VA Medical Center", "city": "Birmingham", "state": "AL", "lat": 33.5206824, "lon": -86.8024326}
+{"code": "ARBH", "name": "Baptist Medical Center", "city": "Little Rock", "state": "AR", "lat": 34.7465071, "lon": -92.2896267}
+{"code": "ARCH", "name": "Arkansas Children's Hospital", "city": "Little Rock", "state": "AR", "lat": 34.7465071, "lon": -92.2896267}
+{"code": "ARUA", "name": "UAMS Medical Center", "city": "Little Rock", "state": "AR", "lat": 34.7465071, "lon": -92.2896267}
+{"code": "AZCH", "name": "Phoenix Children's Hospital", "city": "Phoenix", "state": "AZ", "lat": 33.4484367, "lon": -112.074141}
+{"code": "AZGS", "name": "Banner-University Medical Center Phoenix", "city": "Phoenix", "state": "AZ", "lat": 33.4484367, "lon": -112.074141}
+{"code": "AZMC", "name": "Mayo Clinic Hospital Arizona", "city": "Phoenix", "state": "AZ", "lat": 33.4484367, "lon": -112.074141}
+{"code": "AZSJ", "name": "St. Joseph's Hospital and Medical Center", "city": "Phoenix", "state": "AZ", "lat": 33.4484367, "lon": -112.074141}
+{"code": "AZUA", "name": "Banner University Medical Center-Tucson", "city": "Tucson", "state": "AZ", "lat": 32.2228765, "lon": -110.974847}
+{"code": "CACH", "name": "Rady Children's Hospital and Health Center", "city": "San Diego", "state": "CA", "lat": 32.7174202, "lon": -117.162772}
+{"code": "CACL", "name": "Children's Hospital Los Angeles", "city": "Los Angeles", "state": "CA", "lat": 34.0536909, "lon": -118.242766}
+{"code": "CACS", "name": "Cedars-Sinai Medical Center", "city": "Los Angeles", "state": "CA", "lat": 34.0536909, "lon": -118.242766}
+{"code": "CAGH", "name": "Scripps Green Hospital", "city": "La Jolla", "state": "CA", "lat": 32.8401623, "lon": -117.2740777}
+{"code": "CAHP", "name": "City of Hope National Medical Center", "city": "Duarte", "state": "CA", "lat": 34.1394513, "lon": -117.9772873}
+{"code": "CAIM", "name": "University of California Irvine Medical Center", "city": "Orange", "state": "CA", "lat": 33.7872568, "lon": -117.850308}
+{"code": "CALA", "name": "Harbor UCLA Medical Center", "city": "Torrance", "state": "CA", "lat": 33.8371392, "lon": -118.3413606}
+{"code": "CALL", "name": "Loma Linda University Medical Center", "city": "Loma Linda", "state": "CA", "lat": 34.0537971, "lon": -117.2610925}
+{"code": "CAMB", "name": "UCSF Medical Center at Mission Bay", "city": "San Francisco", "state": "CA", "lat": 37.7792588, "lon": -122.4193286}
+{"code": "CAPC", "name": "Lucile Salter Packard Children's Hospital at Stanford", "city": "Palo Alto", "state": "CA", "lat": 37.4443293, "lon": -122.1598465}
+{"code": "CAPM", "name": "California Pacific Medical Center-Van Ness Campus", "city": "San Francisco", "state": "CA", "lat": 37.7792588, "lon": -122.4193286}
+{"code": "CASD", "name": "University of California San Diego Medical Center", "city": "La Jolla", "state": "CA", "lat": 32.8401623, "lon": -117.2740777}
+{"code": "CASF", "name": "University of California San Francisco Medical Center", "city": "San Francisco", "state": "CA", "lat": 37.7792588, "lon": -122.4193286}
+{"code": "CASG", "name": "Sutter Medical Center Sacramento", "city": "Sacramento", "state": "CA", "lat": 38.5810606, "lon": -121.493895}
+{"code": "CASH", "name": "Sharp Memorial Hospital", "city": "San Diego", "state": "CA", "lat": 32.7174202, "lon": -117.162772}
+{"code": "CASJ", "name": "Saint Joseph Hospital", "city": "Orange", "state": "CA", "lat": 33.7872568, "lon": -117.850308}
+{"code": "CASM", "name": "University of California Davis Medical Center", "city": "Sacramento", "state": "CA", "lat": 38.5810606, "lon": -121.493895}
+{"code": "CASU", "name": "Stanford Health Care", "city": "Stanford", "state": "CA", "lat": 37.426540700000004, "lon": -122.17030545534064}
+{"code": "CAUC", "name": "University of California at Los Angeles Medical Center", "city": "Los Angeles", "state": "CA", "lat": 34.0536909, "lon": -118.242766}
+{"code": "CAUH", "name": "Keck Hospital of USC", "city": "Los Angeles", "state": "CA", "lat": 34.0536909, "lon": -118.242766}
+{"code": "COCH", "name": "Children's Hospital Colorado", "city": "Aurora", "state": "CO", "lat": 39.7405111, "lon": -104.830994}
+{"code": "COPM", "name": "AdventHealth Porter", "city": "Denver", "state": "CO", "lat": 39.7392364, "lon": -104.984862}
+{"code": "COSL", "name": "Presbyterian/St Luke's Medical Center", "city": "Denver", "state": "CO", "lat": 39.7392364, "lon": -104.984862}
+{"code": "COUC", "name": "University of Colorado Hospital/Health Science Center", "city": "Aurora", "state": "CO", "lat": 39.7405111, "lon": -104.830994}
+{"code": "CTHH", "name": "Hartford Hospital", "city": "Hartford", "state": "CT", "lat": 41.764582, "lon": -72.6908547}
+{"code": "CTYN", "name": "Yale New Haven Hospital", "city": "New Haven", "state": "CT", "lat": 41.3082138, "lon": -72.9250518}
+{"code": "DCCH", "name": "Children's National Medical Center", "city": "Washington", "state": "DC", "lat": 38.8950368, "lon": -77.0365427}
+{"code": "DCGU", "name": "Medstar Georgetown Transplant Institute", "city": "Washington", "state": "DC", "lat": 38.8950368, "lon": -77.0365427}
+{"code": "DCGW", "name": "George Washington University Hospital", "city": "Washington", "state": "DC", "lat": 38.8950368, "lon": -77.0365427}
+{"code": "DCWH", "name": "Washington Hospital Center", "city": "Washington", "state": "DC", "lat": 38.8950368, "lon": -77.0365427}
+{"code": "DCWR", "name": "Walter Reed National Military Medical Center at Bethesda", "city": "Bethesda", "state": "MD", "lat": 38.9846816, "lon": -77.0942447}
+{"code": "DEAI", "name": "Nemours Children's Hospital Delaware", "city": "Wilmington", "state": "DE", "lat": 39.7459468, "lon": -75.546589}
+{"code": "DECC", "name": "Christiana Care Health Services", "city": "Newark", "state": "DE", "lat": 39.6828358, "lon": -75.7515682}
+{"code": "FLAC", "name": "Johns Hopkins All Children's Hospital", "city": "St. Petersburg", "state": "FL", "lat": 27.7700475, "lon": -82.6359078}
+{"code": "FLCC", "name": "Cleveland Clinic Florida Weston", "city": "Weston", "state": "FL", "lat": 26.1003392, "lon": -80.399513}
+{"code": "FLFH", "name": "AdventHealth Orlando", "city": "Orlando", "state": "FL", "lat": 28.5421109, "lon": -81.3790304}
+{"code": "FLHM", "name": "Halifax Health", "city": "Daytona Beach", "state": "FL", "lat": 29.2108147, "lon": -81.0228331}
+{"code": "FLJD", "name": "Memorial Regional Hospital/Joe DiMaggio Children's Hospital", "city": "Hollywood", "state": "FL", "lat": 26.0112014, "lon": -80.1494901}
+{"code": "FLJM", "name": "Jackson Memorial Hospital University of Miami School of Medicine", "city": "Miami", "state": "FL", "lat": 25.7741728, "lon": -80.19362}
+{"code": "FLLM", "name": "Largo Medical Center", "city": "Largo", "state": "FL", "lat": 27.9094665, "lon": -82.7873244}
+{"code": "FLMR", "name": "Memorial Regional Hospital", "city": "Hollywood", "state": "FL", "lat": 26.0112014, "lon": -80.1494901}
+{"code": "FLSH", "name": "Ascension Sacred Heart Pensacola", "city": "Pensacola", "state": "FL", "lat": 30.421309, "lon": -87.2169149}
+{"code": "FLSL", "name": "Mayo Clinic Hospital Florida", "city": "Jacksonville", "state": "FL", "lat": 30.3321838, "lon": -81.655651}
+{"code": "FLTG", "name": "Tampa General Hospital", "city": "Tampa", "state": "FL", "lat": 27.9477595, "lon": -82.458444}
+{"code": "FLUF", "name": "UF Health Shands Hospital", "city": "Gainesville", "state": "FL", "lat": 29.6519684, "lon": -82.3249846}
+{"code": "GAEH", "name": "Children\u2019s Healthcare of Atlanta - Arthur M. Blank Hospital", "city": "Atlanta", "state": "GA", "lat": 33.7489924, "lon": -84.3902644}
+{"code": "GAEM", "name": "Emory University Hospital", "city": "Atlanta", "state": "GA", "lat": 33.7489924, "lon": -84.3902644}
+{"code": "GAMC", "name": "Wellstar MCG Health, affiliated with Medical College of Georgia", "city": "Augusta", "state": "GA", "lat": 33.4709714, "lon": -81.9748429}
+{"code": "GAPH", "name": "Piedmont Hospital", "city": "Atlanta", "state": "GA", "lat": 33.7489924, "lon": -84.3902644}
+{"code": "HIQM", "name": "The Queen's Medical Center", "city": "Honolulu", "state": "HI", "lat": 21.304547, "lon": -157.855676}
+{"code": "IAIM", "name": "Iowa Methodist Medical Center", "city": "Des Moines", "state": "IA", "lat": 41.5868654, "lon": -93.6249494}
+{"code": "IAIV", "name": "University of Iowa Hospitals and Clinics Transplant Programs", "city": "Iowa City", "state": "IA", "lat": 41.6612561, "lon": -91.5299106}
+{"code": "IAVA", "name": "The Iowa City VA Health Care System", "city": "Iowa City", "state": "IA", "lat": 41.6612561, "lon": -91.5299106}
+{"code": "ILCH", "name": "Advocate Christ Medical Center", "city": "Oak Lawn", "state": "IL", "lat": 41.7108662, "lon": -87.7581081}
+{"code": "ILCM", "name": "Ann & Robert H. Lurie Children's Hospital of Chicago", "city": "Chicago", "state": "IL", "lat": 41.8755616, "lon": -87.6244212}
+{"code": "ILLU", "name": "Loyola University Medical Center", "city": "Maywood", "state": "IL", "lat": 41.8789942, "lon": -87.8436412}
+{"code": "ILMM", "name": "Springfield Memorial Hospital", "city": "Springfield", "state": "IL", "lat": 39.7990175, "lon": -89.6439575}
+{"code": "ILNM", "name": "Northwestern Memorial Hospital", "city": "Chicago", "state": "IL", "lat": 41.8755616, "lon": -87.6244212}
+{"code": "ILPL", "name": "Rush University Medical Center", "city": "Chicago", "state": "IL", "lat": 41.8755616, "lon": -87.6244212}
+{"code": "ILSF", "name": "OSF Saint Francis Medical Center", "city": "Peoria", "state": "IL", "lat": 40.6938609, "lon": -89.5891008}
+{"code": "ILUC", "name": "University of Chicago Medical Center", "city": "Chicago", "state": "IL", "lat": 41.8755616, "lon": -87.6244212}
+{"code": "ILUI", "name": "University of Illinois Medical Center", "city": "Chicago", "state": "IL", "lat": 41.8755616, "lon": -87.6244212}
+{"code": "ILVA", "name": "Edward Hines Jr. Veterans Administration Medical Center", "city": "Hines", "state": "IL", "lat": 41.8536425, "lon": -87.8395035}
+{"code": "INIM", "name": "Indiana University Health", "city": "Indianapolis", "state": "IN", "lat": 39.7683331, "lon": -86.1583502}
+{"code": "INSV", "name": "Ascension St. Vincent Hospital", "city": "Indianapolis", "state": "IN", "lat": 39.7683331, "lon": -86.1583502}
+{"code": "KSUK", "name": "University of Kansas Hospital", "city": "Kansas City", "state": "KS", "lat": 39.1134562, "lon": -94.626497}
+{"code": "KYJH", "name": "Jewish Hospital", "city": "Louisville", "state": "KY", "lat": 38.2542376, "lon": -85.759407}
+{"code": "KYKC", "name": "Norton Children's Hospital", "city": "Louisville", "state": "KY", "lat": 38.2542376, "lon": -85.759407}
+{"code": "KYUK", "name": "University of Kentucky Medical Center", "city": "Lexington", "state": "KY", "lat": 38.0464066, "lon": -84.4970393}
+{"code": "LACH", "name": "Children's Hospital", "city": "New Orleans", "state": "LA", "lat": 29.9759983, "lon": -90.0782127}
+{"code": "LAOF", "name": "Ochsner Foundation Hospital", "city": "New Orleans", "state": "LA", "lat": 29.9759983, "lon": -90.0782127}
+{"code": "LATU", "name": "Tulane Medical Center", "city": "Metairie", "state": "LA", "lat": 30.00185465, "lon": -90.1767012249077}
+{"code": "LAWK", "name": "Willis-Knighton Medical Center", "city": "Shreveport", "state": "LA", "lat": 32.5135356, "lon": -93.7477839}
+{"code": "MABI", "name": "Beth Israel Deaconess Medical Center", "city": "Boston", "state": "MA", "lat": 42.3554334, "lon": -71.060511}
+{"code": "MABS", "name": "Baystate Medical Center", "city": "Springfield", "state": "MA", "lat": 42.1018764, "lon": -72.5886727}
+{"code": "MABU", "name": "Boston Medical Center", "city": "Boston", "state": "MA", "lat": 42.3554334, "lon": -71.060511}
+{"code": "MACH", "name": "Boston Children's Hospital", "city": "Boston", "state": "MA", "lat": 42.3554334, "lon": -71.060511}
+{"code": "MALC", "name": "Lahey Clinic Medical Center", "city": "Burlington", "state": "MA", "lat": 42.5048167, "lon": -71.1956111}
+{"code": "MAMG", "name": "Massachusetts General Hospital", "city": "Boston", "state": "MA", "lat": 42.3554334, "lon": -71.060511}
+{"code": "MANM", "name": "Tufts Medical Center", "city": "Boston", "state": "MA", "lat": 42.3554334, "lon": -71.060511}
+{"code": "MAPB", "name": "Brigham and Women's Hospital", "city": "Boston", "state": "MA", "lat": 42.3554334, "lon": -71.060511}
+{"code": "MAUM", "name": "UMass Memorial Medical Center", "city": "Worcester", "state": "MA", "lat": 42.2625621, "lon": -71.8018877}
+{"code": "MDJH", "name": "Johns Hopkins Hospital", "city": "Baltimore", "state": "MD", "lat": 39.2908816, "lon": -76.610759}
+{"code": "MDUM", "name": "University of Maryland Medical System", "city": "Baltimore", "state": "MD", "lat": 39.2908816, "lon": -76.610759}
+{"code": "MEMC", "name": "Maine Medical Center", "city": "Portland", "state": "ME", "lat": 43.6573605, "lon": -70.2586618}
+{"code": "MIBH", "name": "Corewell Health William Beaumont University Hospital", "city": "Royal Oak", "state": "MI", "lat": 42.4894801, "lon": -83.1446485}
+{"code": "MICH", "name": "Children's Hospital of Michigan", "city": "Detroit", "state": "MI", "lat": 42.3315509, "lon": -83.0466403}
+{"code": "MIDV", "name": "Corewell Health Helen DeVos Children's Hospital", "city": "Grand Rapids", "state": "MI", "lat": 42.9632425, "lon": -85.6678639}
+{"code": "MIHF", "name": "Henry Ford Hospital", "city": "Detroit", "state": "MI", "lat": 42.3315509, "lon": -83.0466403}
+{"code": "MISH", "name": "Corewell Health Grand Rapids Hospitals", "city": "Grand Rapids", "state": "MI", "lat": 42.9632425, "lon": -85.6678639}
+{"code": "MISJ", "name": "Ascension St. John Hospital", "city": "Detroit", "state": "MI", "lat": 42.3315509, "lon": -83.0466403}
+{"code": "MISM", "name": "Mercy Health Saint Mary's", "city": "Grand Rapids", "state": "MI", "lat": 42.9632425, "lon": -85.6678639}
+{"code": "MIUM", "name": "University of Michigan Medical Center", "city": "Ann Arbor", "state": "MI", "lat": 42.2813722, "lon": -83.7484616}
+{"code": "MNAN", "name": "Abbott Northwestern Hospital", "city": "Minneapolis", "state": "MN", "lat": 44.9772995, "lon": -93.2654692}
+{"code": "MNCM", "name": "Children's Minnesota", "city": "Minneapolis", "state": "MN", "lat": 44.9772995, "lon": -93.2654692}
+{"code": "MNHC", "name": "Hennepin County Medical Center", "city": "Minneapolis", "state": "MN", "lat": 44.9772995, "lon": -93.2654692}
+{"code": "MNMC", "name": "Mayo Clinic Hospital Minnesota", "city": "Rochester", "state": "MN", "lat": 44.0234387, "lon": -92.4630182}
+{"code": "MNUM", "name": "University of Minnesota Medical Center, Fairview", "city": "Minneapolis", "state": "MN", "lat": 44.9772995, "lon": -93.2654692}
+{"code": "MOBH", "name": "Barnes-Jewish Hospital", "city": "St. Louis", "state": "MO", "lat": 38.6280278, "lon": -90.1910154}
+{"code": "MOCG", "name": "Cardinal Glennon Children's Hospital", "city": "St. Louis", "state": "MO", "lat": 38.6280278, "lon": -90.1910154}
+{"code": "MOCH", "name": "St. Louis Children's Hospital at Washington University Medical Center", "city": "St. Louis", "state": "MO", "lat": 38.6280278, "lon": -90.1910154}
+{"code": "MOCM", "name": "Children's Mercy Hospital", "city": "Kansas City", "state": "MO", "lat": 39.100105, "lon": -94.5781416}
+{"code": "MOLH", "name": "St Luke's Hospital of Kansas City", "city": "Kansas City", "state": "MO", "lat": 39.100105, "lon": -94.5781416}
+{"code": "MORH", "name": "Research Medical Center", "city": "Kansas City", "state": "MO", "lat": 39.100105, "lon": -94.5781416}
+{"code": "MOSL", "name": "SSM Health Saint Louis University Hospital", "city": "St. Louis", "state": "MO", "lat": 38.6280278, "lon": -90.1910154}
+{"code": "MOUM", "name": "University of Missouri Hospital and Clinics", "city": "Columbia", "state": "MO", "lat": 38.951883, "lon": -92.3337366}
+{"code": "MSUM", "name": "University of Mississippi Medical Center", "city": "Jackson", "state": "MS", "lat": 32.2998686, "lon": -90.1830408}
+{"code": "NCBG", "name": "Wake Forest Baptist Medical Center", "city": "Winston-Salem", "state": "NC", "lat": 36.0998131, "lon": -80.2440518}
+{"code": "NCCM", "name": "Carolinas Medical Center", "city": "Charlotte", "state": "NC", "lat": 35.2272086, "lon": -80.8430827}
+{"code": "NCDU", "name": "Duke University Hospital", "city": "Durham", "state": "NC", "lat": 35.996653, "lon": -78.9018053}
+{"code": "NCEC", "name": "ECU Health Medical Center", "city": "Greenville", "state": "NC", "lat": 35.613224, "lon": -77.3724593}
+{"code": "NCMH", "name": "University of North Carolina Hospitals", "city": "Chapel Hill", "state": "NC", "lat": 35.9131542, "lon": -79.05578}
+{"code": "NDMC", "name": "Sanford Bismarck Medical Center", "city": "Bismarck", "state": "ND", "lat": 46.808327, "lon": -100.783739}
+{"code": "NDSL", "name": "Sanford Medical Center Fargo", "city": "Fargo", "state": "ND", "lat": 46.877229, "lon": -96.789821}
+{"code": "NECH", "name": "Children\u2019s Nebraska", "city": "Omaha", "state": "NE", "lat": 41.2587459, "lon": -95.9383758}
+{"code": "NEUN", "name": "The Nebraska Medical Center", "city": "Omaha", "state": "NE", "lat": 41.2587459, "lon": -95.9383758}
+{"code": "NHDH", "name": "Mary Hitchcock Memorial Hospital", "city": "Lebanon", "state": "NH", "lat": 43.643032, "lon": -72.251587}
+{"code": "NJBI", "name": "Newark Beth Israel Medical Center", "city": "Newark", "state": "NJ", "lat": 40.735657, "lon": -74.1723667}
+{"code": "NJHK", "name": "Hackensack University Medical Center", "city": "Hackensack", "state": "NJ", "lat": 40.8871438, "lon": -74.0410865}
+{"code": "NJLL", "name": "Virtua Our Lady of Lourdes Hospital", "city": "Camden", "state": "NJ", "lat": 39.9448402, "lon": -75.1198911}
+{"code": "NJRW", "name": "Robert Wood Johnson University Hospital", "city": "New Brunswick", "state": "NJ", "lat": 40.4862174, "lon": -74.4518173}
+{"code": "NJSB", "name": "Saint Barnabas Medical Center", "city": "Livingston", "state": "NJ", "lat": 40.7959335, "lon": -74.3148713}
+{"code": "NJUH", "name": "University Hospital", "city": "Newark", "state": "NJ", "lat": 40.735657, "lon": -74.1723667}
+{"code": "NMAQ", "name": "University Hospital, University of New Mexico Health Sciences Center", "city": "Albuquerque", "state": "NM", "lat": 35.0841034, "lon": -106.650985}
+{"code": "NMPH", "name": "Presbyterian Hospital", "city": "Albuquerque", "state": "NM", "lat": 35.0841034, "lon": -106.650985}
+{"code": "NVUM", "name": "University Medical Center of Southern Nevada", "city": "Las Vegas", "state": "NV", "lat": 36.1672559, "lon": -115.148516}
+{"code": "NYAM", "name": "Albany Medical Center Hospital", "city": "Albany", "state": "NY", "lat": 42.6511674, "lon": -73.754968}
+{"code": "NYCC", "name": "Long Island Jewish Medical Center-Cohen Children's Medical Center", "city": "Queens", "state": "NY", "lat": 40.7135078, "lon": -73.8283132}
+{"code": "NYCP", "name": "NY Presbyterian Hospital/Columbia Univ. Medical Center", "city": "New York", "state": "NY", "lat": 40.7127281, "lon": -74.0060152}
+{"code": "NYDS", "name": "State University of New York, Downstate Medical Center", "city": "Brooklyn", "state": "NY", "lat": 40.6526006, "lon": -73.9497211}
+{"code": "NYEC", "name": "Erie County Medical Center", "city": "Buffalo", "state": "NY", "lat": 42.8867166, "lon": -78.8783922}
+{"code": "NYFL", "name": "Strong Memorial Hospital, University of Rochester Medical Center", "city": "Rochester", "state": "NY", "lat": 43.157285, "lon": -77.615214}
+{"code": "NYMA", "name": "Montefiore Medical Center", "city": "Bronx", "state": "NY", "lat": 40.8466508, "lon": -73.8785937}
+{"code": "NYMS", "name": "Mount Sinai Medical Center", "city": "New York", "state": "NY", "lat": 40.7127281, "lon": -74.0060152}
+{"code": "NYNS", "name": "North Shore University Hospital/Northwell Health", "city": "Manhasset", "state": "NY", "lat": 40.7956894, "lon": -73.6989103}
+{"code": "NYNY", "name": "New York-Presbyterian Hospital/Weill Cornell Medical Center", "city": "New York", "state": "NY", "lat": 40.7127281, "lon": -74.0060152}
+{"code": "NYSB", "name": "University Hospital of State University of New York at Stony Brook", "city": "Stony Brook", "state": "NY", "lat": 40.9256538, "lon": -73.140943}
+{"code": "NYUC", "name": "NYU Langone Health", "city": "New York", "state": "NY", "lat": 40.7127281, "lon": -74.0060152}
+{"code": "NYUM", "name": "State University of New York Upstate Medical University", "city": "Syracuse", "state": "NY", "lat": 43.0481221, "lon": -76.1474244}
+{"code": "NYVA", "name": "James J. Peters VA Medical Center", "city": "Bronx", "state": "NY", "lat": 40.8466508, "lon": -73.8785937}
+{"code": "NYWC", "name": "Westchester Medical Center", "city": "Valhalla", "state": "NY", "lat": 41.0748189, "lon": -73.7751326}
+{"code": "OHCC", "name": "The Cleveland Clinic Foundation", "city": "Cleveland", "state": "OH", "lat": 41.4996574, "lon": -81.6936772}
+{"code": "OHCH", "name": "Nationwide Children's Hospital", "city": "Columbus", "state": "OH", "lat": 39.9622601, "lon": -83.0007065}
+{"code": "OHCM", "name": "Children's Hospital Medical Center", "city": "Cincinnati", "state": "OH", "lat": 39.1014537, "lon": -84.5124602}
+{"code": "OHCO", "name": "University of Toledo Medical Center", "city": "Toledo", "state": "OH", "lat": 41.6529143, "lon": -83.5378173}
+{"code": "OHOU", "name": "Ohio State University Medical Center", "city": "Columbus", "state": "OH", "lat": 39.9622601, "lon": -83.0007065}
+{"code": "OHTC", "name": "The Christ Hospital", "city": "Cincinnati", "state": "OH", "lat": 39.1014537, "lon": -84.5124602}
+{"code": "OHUC", "name": "University of Cincinnati Medical Center", "city": "Cincinnati", "state": "OH", "lat": 39.1014537, "lon": -84.5124602}
+{"code": "OHUH", "name": "University Hospitals of Cleveland", "city": "Cleveland", "state": "OH", "lat": 41.4996574, "lon": -81.6936772}
+{"code": "OKBC", "name": "Integris Baptist Medical Center", "city": "Oklahoma City", "state": "OK", "lat": 35.4729886, "lon": -97.5170536}
+{"code": "OKCM", "name": "Children's Hospital of Oklahoma", "city": "Oklahoma City", "state": "OK", "lat": 35.4729886, "lon": -97.5170536}
+{"code": "OKMD", "name": "OU Medical Center", "city": "Oklahoma City", "state": "OK", "lat": 35.4729886, "lon": -97.5170536}
+{"code": "OKSJ", "name": "St John Medical Center", "city": "Tulsa", "state": "OK", "lat": 36.1563122, "lon": -95.9927516}
+{"code": "ORGS", "name": "Legacy Good Samaritan Hospital and Medical Center", "city": "Portland", "state": "OR", "lat": 45.5202471, "lon": -122.674194}
+{"code": "ORSV", "name": "Providence St. Vincent Medical Center", "city": "Portland", "state": "OR", "lat": 45.5202471, "lon": -122.674194}
+{"code": "ORUO", "name": "Oregon Health and Science University", "city": "Portland", "state": "OR", "lat": 45.5202471, "lon": -122.674194}
+{"code": "ORVA", "name": "VA Portland Health Care System", "city": "Portland", "state": "OR", "lat": 45.5202471, "lon": -122.674194}
+{"code": "PAAE", "name": "Albert Einstein Medical Center", "city": "Philadelphia", "state": "PA", "lat": 39.9527237, "lon": -75.1635262}
+{"code": "PAAG", "name": "Allegheny General Hospital", "city": "Pittsburgh", "state": "PA", "lat": 40.4416941, "lon": -79.9900861}
+{"code": "PACH", "name": "UPMC Children's Hospital of Pittsburgh", "city": "Pittsburgh", "state": "PA", "lat": 40.4416941, "lon": -79.9900861}
+{"code": "PACP", "name": "Children's Hospital of Philadelphia", "city": "Philadelphia", "state": "PA", "lat": 39.9527237, "lon": -75.1635262}
+{"code": "PAGM", "name": "Geisinger Medical Center", "city": "Danville", "state": "PA", "lat": 40.9664806, "lon": -76.6131474}
+{"code": "PAHE", "name": "Penn State Milton S Hershey Medical Center", "city": "Hershey", "state": "PA", "lat": 40.2854881, "lon": -76.6506001}
+{"code": "PAHH", "name": "Pinnacle Health System at Harrisburg Hospital", "city": "Harrisburg", "state": "PA", "lat": 40.2663107, "lon": -76.8861122}
+{"code": "PAHM", "name": "Hahnemann University Hospital", "city": "Philadelphia", "state": "PA", "lat": 39.9527237, "lon": -75.1635262}
+{"code": "PALV", "name": "Lehigh Valley Hospital", "city": "Allentown", "state": "PA", "lat": 40.6022059, "lon": -75.4712794}
+{"code": "PAPH", "name": "UPMC Hamot", "city": "Erie", "state": "PA", "lat": 42.1294712, "lon": -80.0852695}
+{"code": "PAPT", "name": "University of Pittsburgh Medical Center", "city": "Pittsburgh", "state": "PA", "lat": 40.4416941, "lon": -79.9900861}
+{"code": "PASC", "name": "St. Christopher's Hospital for Children", "city": "Philadelphia", "state": "PA", "lat": 39.9527237, "lon": -75.1635262}
+{"code": "PATJ", "name": "Thomas Jefferson University Hospital", "city": "Philadelphia", "state": "PA", "lat": 39.9527237, "lon": -75.1635262}
+{"code": "PATU", "name": "Temple University Hospital", "city": "Philadelphia", "state": "PA", "lat": 39.9527237, "lon": -75.1635262}
+{"code": "PAUP", "name": "Hospital of the University of Pennsylvania", "city": "Philadelphia", "state": "PA", "lat": 39.9527237, "lon": -75.1635262}
+{"code": "PAVA", "name": "VA Pittsburgh Healthcare System", "city": "Pittsburgh", "state": "PA", "lat": 40.4416941, "lon": -79.9900861}
+{"code": "PRCC", "name": "Cardiovascular Center of Puerto Rico and the Caribbean", "city": "San Juan", "state": "PR", "lat": 18.465299, "lon": -66.116666}
+{"code": "PRSJ", "name": "Auxilio Mutuo Hospital", "city": "Hato Rey", "state": "PR", "lat": 18.42263095, "lon": -66.0507187240099}
+{"code": "RIRH", "name": "Rhode Island Hospital", "city": "Providence", "state": "RI", "lat": 41.8239891, "lon": -71.4128343}
+{"code": "SCCH", "name": "MUSC Children's Hospital", "city": "Charleston", "state": "SC", "lat": 32.7884363, "lon": -79.9399309}
+{"code": "SCLA", "name": "MUSC Lancaster", "city": "Lancaster", "state": "SC", "lat": 34.7204257, "lon": -80.7709015}
+{"code": "SCMU", "name": "Medical University of South Carolina", "city": "Charleston", "state": "SC", "lat": 32.7884363, "lon": -79.9399309}
+{"code": "SCPG", "name": "Prisma Health Greenville Memorial Hospital", "city": "Greenville", "state": "SC", "lat": 34.851354, "lon": -82.3984882}
+{"code": "SDMK", "name": "Avera McKennan Hospital", "city": "Sioux Falls", "state": "SD", "lat": 43.5476008, "lon": -96.7293629}
+{"code": "SDSV", "name": "Sanford Health/USD Medical Center", "city": "Sioux Falls", "state": "SD", "lat": 43.5476008, "lon": -96.7293629}
+{"code": "TNBM", "name": "Baptist Memorial Hospital", "city": "Memphis", "state": "TN", "lat": 35.1460249, "lon": -90.0517638}
+{"code": "TNEM", "name": "Erlanger Medical Center", "city": "Chattanooga", "state": "TN", "lat": 35.0457219, "lon": -85.3094883}
+{"code": "TNLB", "name": "Le Bonheur Children's Medical Center", "city": "Memphis", "state": "TN", "lat": 35.1460249, "lon": -90.0517638}
+{"code": "TNMH", "name": "Methodist University Hospital", "city": "Memphis", "state": "TN", "lat": 35.1460249, "lon": -90.0517638}
+{"code": "TNST", "name": "Saint Thomas Hospital", "city": "Nashville", "state": "TN", "lat": 36.1622767, "lon": -86.7742984}
+{"code": "TNUK", "name": "University of Tennessee Medical Center at Knoxville", "city": "Knoxville", "state": "TN", "lat": 35.9603948, "lon": -83.9210261}
+{"code": "TNVU", "name": "Vanderbilt University Medical Center", "city": "Nashville", "state": "TN", "lat": 36.1622767, "lon": -86.7742984}
+{"code": "TXAS", "name": "Baylor Scott and White All Saints Medical Center-Fort Worth", "city": "Fort Worth", "state": "TX", "lat": 32.753177, "lon": -97.3327459}
+{"code": "TXBC", "name": "University Hospital, University of Texas Health Science Center", "city": "San Antonio", "state": "TX", "lat": 29.4246002, "lon": -98.4951405}
+{"code": "TXCF", "name": "Cook Children's Medical Center", "city": "Fort Worth", "state": "TX", "lat": 32.753177, "lon": -97.3327459}
+{"code": "TXCM", "name": "Children's Medical Center of Dallas", "city": "Dallas", "state": "TX", "lat": 32.7762719, "lon": -96.7968559}
+{"code": "TXCT", "name": "Seton Medical Center Austin", "city": "Austin", "state": "TX", "lat": 30.2711286, "lon": -97.7436995}
+{"code": "TXDC", "name": "Driscoll Children's Hospital", "city": "Corpus Christi", "state": "TX", "lat": 27.7635302, "lon": -97.4033191}
+{"code": "TXDL", "name": "Dell Children's Medical Center", "city": "Austin", "state": "TX", "lat": 30.2711286, "lon": -97.7436995}
+{"code": "TXDM", "name": "North Austin Medical Center", "city": "Austin", "state": "TX", "lat": 30.2711286, "lon": -97.7436995}
+{"code": "TXDR", "name": "Doctor's Hospital at Renaissance", "city": "Edinburg", "state": "TX", "lat": 26.3013982, "lon": -98.1624501}
+{"code": "TXDS", "name": "Dell Seton Medical Center at The University of Texas at Austin", "city": "Austin", "state": "TX", "lat": 30.2711286, "lon": -97.7436995}
+{"code": "TXFW", "name": "Texas Health Harris Methodist Fort Worth Hospital", "city": "Fort Worth", "state": "TX", "lat": 32.753177, "lon": -97.3327459}
+{"code": "TXHD", "name": "Medical City Dallas Hospital", "city": "Dallas", "state": "TX", "lat": 32.7762719, "lon": -96.7968559}
+{"code": "TXHH", "name": "Memorial Hermann Hospital, University of Texas at Houston", "city": "Houston", "state": "TX", "lat": 29.7589382, "lon": -95.3676974}
+{"code": "TXHI", "name": "CHI St. Luke's Health Baylor College of Medicine Medical Center", "city": "Houston", "state": "TX", "lat": 29.7589382, "lon": -95.3676974}
+{"code": "TXHS", "name": "Methodist Specialty and Transplant Hospital", "city": "San Antonio", "state": "TX", "lat": 29.4246002, "lon": -98.4951405}
+{"code": "TXJS", "name": "University of Texas Medical Branch at Galveston", "city": "Galveston", "state": "TX", "lat": 29.3056996, "lon": -94.7933252}
+{"code": "TXLM", "name": "Covenant Medical Center", "city": "Lubbock", "state": "TX", "lat": 33.5855677, "lon": -101.8470215}
+{"code": "TXLP", "name": "Las Palmas Medical Center", "city": "El Paso", "state": "TX", "lat": 31.7601164, "lon": -106.4870404}
+{"code": "TXMC", "name": "Methodist Dallas Medical Center", "city": "Dallas", "state": "TX", "lat": 32.7762719, "lon": -96.7968559}
+{"code": "TXMH", "name": "Houston Methodist Hospital", "city": "Houston", "state": "TX", "lat": 29.7589382, "lon": -95.3676974}
+{"code": "TXPL", "name": "Medical City Fort Worth", "city": "Fort Worth", "state": "TX", "lat": 32.753177, "lon": -97.3327459}
+{"code": "TXPM", "name": "Parkland Health and Hospital System", "city": "Dallas", "state": "TX", "lat": 32.7762719, "lon": -96.7968559}
+{"code": "TXSP", "name": "UT Southwestern Medical Center/William P. Clements Jr. University Hospital", "city": "Dallas", "state": "TX", "lat": 32.7762719, "lon": -96.7968559}
+{"code": "TXSW", "name": "Scott and White Memorial Hospital", "city": "Temple", "state": "TX", "lat": 31.108594250000003, "lon": -97.38613666929348}
+{"code": "TXTC", "name": "Texas Children's Hospital", "city": "Houston", "state": "TX", "lat": 29.7589382, "lon": -95.3676974}
+{"code": "TXTX", "name": "Baylor University Medical Center", "city": "Dallas", "state": "TX", "lat": 32.7762719, "lon": -96.7968559}
+{"code": "TXUC", "name": "University Children's Health", "city": "San Antonio", "state": "TX", "lat": 29.4246002, "lon": -98.4951405}
+{"code": "TXVA", "name": "Michael E. DeBakey VA Medical Center", "city": "Houston", "state": "TX", "lat": 29.7589382, "lon": -95.3676974}
+{"code": "UTLD", "name": "Intermountain Medical Center", "city": "Murray", "state": "UT", "lat": 40.6667841, "lon": -111.888417}
+{"code": "UTMC", "name": "University of Utah Medical Center", "city": "Salt Lake City", "state": "UT", "lat": 40.7596198, "lon": -111.886797}
+{"code": "UTPC", "name": "Primary Children's Hospital", "city": "Salt Lake City", "state": "UT", "lat": 40.7596198, "lon": -111.886797}
+{"code": "VACH", "name": "Children's Hospital of the King's Daughters", "city": "Norfolk", "state": "VA", "lat": 36.8493695, "lon": -76.2899539}
+{"code": "VAFH", "name": "Inova Fairfax Hospital", "city": "Falls Church", "state": "VA", "lat": 38.882334, "lon": -77.1710914}
+{"code": "VAHD", "name": "Henrico Doctors' Hospital", "city": "Richmond", "state": "VA", "lat": 37.5385087, "lon": -77.43428}
+{"code": "VAMC", "name": "VCU Health System Authority, VCUMC", "city": "Richmond", "state": "VA", "lat": 37.5385087, "lon": -77.43428}
+{"code": "VAMV", "name": "Hunter Holmes McGuire Veterans Administration Medical Center (inactive *)", "city": "Richmond", "state": "VA", "lat": 37.5385087, "lon": -77.43428}
+{"code": "VANG", "name": "Sentara Norfolk General Hospital", "city": "Norfolk", "state": "VA", "lat": 36.8493695, "lon": -76.2899539}
+{"code": "VAUV", "name": "University of Virginia Health Sciences Center", "city": "Charlottesville", "state": "VA", "lat": 38.029306, "lon": -78.4766781}
+{"code": "VTMC", "name": "The University of Vermont Medical Center", "city": "Burlington", "state": "VT", "lat": 44.4761601, "lon": -73.212906}
+{"code": "WACH", "name": "Seattle Children's Hospital", "city": "Seattle", "state": "WA", "lat": 47.6038321, "lon": -122.330062}
+{"code": "WASH", "name": "Providence Sacred Heart Medical Center & Children's Hospital", "city": "Spokane", "state": "WA", "lat": 47.6571934, "lon": -117.42351}
+{"code": "WASM", "name": "Swedish Medical Center", "city": "Seattle", "state": "WA", "lat": 47.6038321, "lon": -122.330062}
+{"code": "WAUW", "name": "University of Washington Medical Center", "city": "Seattle", "state": "WA", "lat": 47.6038321, "lon": -122.330062}
+{"code": "WAVM", "name": "Virginia Mason Medical Center", "city": "Seattle", "state": "WA", "lat": 47.6038321, "lon": -122.330062}
+{"code": "WICH", "name": "Children's Hospital of Wisconsin", "city": "Milwaukee", "state": "WI", "lat": 43.0386475, "lon": -87.9090751}
+{"code": "WISE", "name": "Froedtert Memorial Lutheran Hospital", "city": "Milwaukee", "state": "WI", "lat": 43.0386475, "lon": -87.9090751}
+{"code": "WISL", "name": "Aurora St. Luke's Medical Center", "city": "Milwaukee", "state": "WI", "lat": 43.0386475, "lon": -87.9090751}
+{"code": "WIUW", "name": "University of Wisconsin Hospital and Clinics", "city": "Madison", "state": "WI", "lat": 43.074761, "lon": -89.3837613}
+{"code": "WVCA", "name": "Charleston Area Medical Center", "city": "Charleston", "state": "WV", "lat": 38.3505995, "lon": -81.6332812}
+{"code": "WVWU", "name": "West Virginia University Hospitals Inc.", "city": "Morgantown", "state": "WV", "lat": 39.6296809, "lon": -79.9559437}
