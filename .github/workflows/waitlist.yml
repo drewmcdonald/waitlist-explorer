@@ -34,3 +34,5 @@ jobs:
 
       - name: Download waitlist data
         run: poetry run python scripts/scrape_waitlist.py --prod
+        env:
+          ENVIRONMENT: "ci"
