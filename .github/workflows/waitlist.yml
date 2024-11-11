@@ -6,7 +6,7 @@ on:
   workflow_dispatch: # Allows manual triggering
 
 jobs:
-  deploy:
+  run:
     runs-on: ubuntu-latest
     permissions:
       contents: "read"
@@ -22,7 +22,7 @@ jobs:
           credentials_json: "${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}"
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.9.9"
 
