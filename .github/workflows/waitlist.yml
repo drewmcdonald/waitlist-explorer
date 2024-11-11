@@ -1,0 +1,36 @@
+name: GCP Authenticated Workflow
+
+on:
+  schedule:
+    - cron: "0 4,16 * * *" # Runs at 4am and 4pm ET
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: "read"
+      id-token: "write"
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - id: "auth-key"
+        name: "Authenticate with Service Account Key"
+        uses: "google-github-actions/auth@v1"
+        with:
+          credentials_json: "${{ secrets.SERVICE_ACCOUNT_KEY_JSON }}"
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9.9"
+
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+
+      - name: Install dependencies
+        run: poetry install
+
+      - name: Download waitlist data
+        run: poetry run python scripts/scrape_waitlist.py --prod
