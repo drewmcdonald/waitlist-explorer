@@ -1,13 +1,13 @@
 import enum
 import tempfile
 from contextlib import contextmanager
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import date, datetime
 from pathlib import Path
 from typing import ClassVar, Iterator, Optional
 
 import pandas as pd
-from google.cloud.storage import Blob, Bucket, Client
+from google.cloud.storage import Bucket, Client
 
 from lib.util import Environment, config, getLogger
 
@@ -63,10 +63,14 @@ class Report:
         return local_path
 
 
-@dataclass(frozen=True)
+@dataclass
 class ReportCollection:
     client: Client
     bucket: Bucket
+
+    _reports: dict[tuple[ReportKind, ReportStatus, Optional[date]], list[Report]] = (
+        field(default_factory=dict)
+    )
 
     def reports(
         self,
@@ -74,17 +78,20 @@ class ReportCollection:
         status: ReportStatus = ReportStatus.PROCESSED,
         d: Optional[date] = None,
     ) -> list[Report]:
-        glob = "/".join(
-            [
-                config.env.value,
-                d.isoformat() if d else "*",
-                f"{kind.value}-{status.value}-*.{status.extension}",
-            ]
-        )
-        return list(
-            Report.from_remote_path(file.name)
-            for file in self.client.list_blobs(self.bucket, match_glob=glob)
-        )
+        key = (kind, status, d)
+        if key not in self._reports:
+            glob = "/".join(
+                [
+                    config.env.value,
+                    d.isoformat() if d else "*",
+                    f"{kind.value}-{status.value}-*.{status.extension}",
+                ]
+            )
+            self._reports[key] = list(
+                Report.from_remote_path(file.name)
+                for file in self.client.list_blobs(self.bucket, match_glob=glob)
+            )
+        return self._reports[key]
 
     def find_latest_report(
         self,

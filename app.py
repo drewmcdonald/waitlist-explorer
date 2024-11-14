@@ -18,7 +18,7 @@ client = GcsClient(
 )
 collection = ReportCollection(client, client.bucket(config.gcs_bucket))
 
-st.set_page_config(layout="wide", page_title='Wait')
+st.set_page_config(layout="wide", page_title='Waitlist explorer')
 
 
 @st.cache_data
