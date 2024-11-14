@@ -1,5 +1,3 @@
-import json
-from dataclasses import dataclass
 from functools import reduce
 from typing import Dict, Literal, Sequence, TypeVar
 
@@ -8,7 +6,9 @@ import pandas as pd
 import streamlit as st
 from google.cloud.storage import Client as GcsClient
 from google.oauth2.service_account import Credentials
+from numerize import numerize
 
+from lib.Center import Center
 from lib.optn import ages, statuses, waiting_times
 from lib.Report import ReportCollection
 from lib.util import config
@@ -16,26 +16,9 @@ from lib.util import config
 client = GcsClient(
     credentials=Credentials.from_service_account_info(st.secrets['google'])
 )
-collection = ReportCollection(client.bucket(config.gcs_bucket))
+collection = ReportCollection(client, client.bucket(config.gcs_bucket))
 
 st.set_page_config(layout="wide")
-
-
-@dataclass
-class Center:
-    code: str
-    name: str
-    city: str
-    state: str
-    lat: float
-    lon: float
-
-    def __str__(self) -> str:
-        return f"{self.code} - {self.name} ({self.city}, {self.state})"
-
-    @classmethod
-    def from_json(cls, json_str):
-        return cls(**json.loads(json_str))
 
 
 @st.cache_data
@@ -110,7 +93,7 @@ def summary_chart(frame: pd.DataFrame, group_by: str, color_by: str):
         .mark_bar()
         .encode(
             alt.X(group_by, type=col_type[group_by], sort=x_order[group_by]),
-            alt.Y('Count', title='Patients'),
+            alt.Y('Count', title='Number of waitlist patients'),
             alt.Color(
                 color_by,
                 type=col_type[color_by],
@@ -192,13 +175,34 @@ def filter_data(
 
 
 df = filter_data(waitlist_report)
-
 cols = ['Age', 'Waiting Time', 'Status', 'Center']
 
+st.markdown(
+    """
+    # Waitlist explorer
+    """
+)
 
 col1, col2 = st.columns(2)
-group_by = col1.selectbox("Group by", cols, index=0)
-color_by = col2.selectbox("Color by", [c for c in cols if c != group_by], index=1)
+
+
+with col1:
+    st.metric(
+        label="Waitlist patients",
+        value=numerize.numerize(df['Count'].astype(float).sum()),
+        help='Number of patients on the waitlist',
+    )
+
+    group_by = col1.selectbox("Group by", cols, index=0)
+
+with col2:
+    st.metric(
+        label="Transplant centers",
+        value=numerize.numerize(df['Center'].nunique()),
+        help='Number of transplant centers',
+    )
+    color_by = col2.selectbox("Color by", [c for c in cols if c != group_by], index=1)
+
 
 st.altair_chart(
     summary_chart(df, group_by, color_by),
