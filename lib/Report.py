@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import ClassVar, Iterator, Optional
 
 import pandas as pd
-from google.cloud.storage import Bucket
+from google.cloud.storage import Blob, Bucket, Client
 
 from lib.util import Environment, config, getLogger
 
@@ -65,15 +65,15 @@ class Report:
 
 @dataclass(frozen=True)
 class ReportCollection:
+    client: Client
     bucket: Bucket
 
-    def find_report(
+    def reports(
         self,
-        *,
         kind: ReportKind = ReportKind.WAITLIST,
         status: ReportStatus = ReportStatus.PROCESSED,
         d: Optional[date] = None,
-    ) -> Report:
+    ) -> list[Report]:
         glob = "/".join(
             [
                 config.env.value,
@@ -81,22 +81,31 @@ class ReportCollection:
                 f"{kind.value}-{status.value}-*.{status.extension}",
             ]
         )
+        return list(
+            Report.from_remote_path(file.name)
+            for file in self.client.list_blobs(self.bucket, match_glob=glob)
+        )
 
-        files = self.bucket.list_blobs(match_glob=glob)
-        reports = [Report.from_remote_path(file.name) for file in files]
-
+    def find_latest_report(
+        self,
+        *,
+        kind: ReportKind = ReportKind.WAITLIST,
+        status: ReportStatus = ReportStatus.PROCESSED,
+        d: Optional[date] = None,
+    ) -> Report:
+        reports = self.reports(kind, status, d)
         reports.sort(key=lambda r: r.datetime_retrieved, reverse=True)
         return reports[0]
 
     @contextmanager
-    def download_report(
+    def download_latest_report(
         self,
         *,
         kind: ReportKind = ReportKind.WAITLIST,
         status: ReportStatus = ReportStatus.PROCESSED,
         d: Optional[date] = None,
     ) -> Iterator[Path]:
-        report = self.find_report(kind=kind, status=status, d=d)
+        report = self.find_latest_report(kind=kind, status=status, d=d)
         local_path = Path(tempfile.mkstemp(suffix=f".{status.extension}")[1])
         try:
             report.download(self.bucket, local_path)
@@ -105,7 +114,7 @@ class ReportCollection:
             local_path.unlink(missing_ok=True)
 
     def get_processed_waitlist(self, d: Optional[date] = None) -> pd.DataFrame:
-        with self.download_report(
+        with self.download_latest_report(
             kind=ReportKind.WAITLIST,
             status=ReportStatus.PROCESSED,
             d=d,
