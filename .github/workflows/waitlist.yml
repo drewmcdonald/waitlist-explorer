@@ -1,8 +1,8 @@
 name: Waitlist
 
 on:
-  schedule:
-    - cron: "0 1,13 * * *" # Runs at 8am and 8pm ET
+  # schedule:
+  #   - cron: "0 1,13 * * *" # Runs at 8am and 8pm ET
   workflow_dispatch: # Allows manual triggering
 
 jobs:
